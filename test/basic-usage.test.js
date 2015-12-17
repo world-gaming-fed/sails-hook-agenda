@@ -33,6 +33,8 @@ describe('Basic :: ', function () {
       done();
     });
 
-    sails.agenda.now('test', {test: 1});
+    sails.agenda.on('ready', function() {
+      sails.agenda.now('test', {test: 1});
+    });
   });
 });

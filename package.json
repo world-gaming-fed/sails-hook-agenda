@@ -33,8 +33,8 @@
     "sails": "^0.11.0"
   },
   "dependencies": {
-    "agenda": "^0.6.28",
-    "async": "^1.4.2",
+    "agenda": "^0.7.5",
+    "async": "^1.5.0",
     "lodash": "^3.10.1"
   }
 }
